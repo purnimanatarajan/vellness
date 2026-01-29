@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vellness - The Right Direction to Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cursor-follower"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-spacer"></div>
+            <a href="#explore" class="nav-link">explore</a>
+            <a href="#enquire" class="nav-link">enquire</a>
+            <a href="#buy" class="nav-link">buy now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-home.png">
+                <source src="assets/hero-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-logo-container">
+                <img src="assets/logo.png" alt="Vellness - The Right Direction to Life" class="hero-logo">
+            </div>
+
+            <div class="hero-cta-container">
+                <button class="hero-btn">Learn More</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Features -->
+    <section class="hero-features">
+        <div class="container">
+            <div class="features-grid">
+                <!-- Left Wave -->
+                <div class="d-none d-md-block">
+                    <div class="heartbeat-wave">
+                        <svg viewBox="0 0 300 100" width="100%" height="100%" preserveAspectRatio="none">
+                            <path class="wave-path animate"
+                                d="M0,50 L50,50 L60,20 L75,80 L90,10 L105,90 L120,50 L150,50 L160,30 L170,70 L180,50 L300,50"
+                                fill="none" stroke="url(#blueGradient)" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#0077b6" stop-opacity="0" />
+                                    <stop offset="20%" stop-color="#0077b6" />
+                                    <stop offset="80%" stop-color="#00b4d8" />
+                                    <stop offset="100%" stop-color="#00b4d8" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="feature-list">
+                    <h2 class="feature-item scroll-animate" style="transition-delay: 0s;">Clinically accurate 12-lead
+                        ECG</h2>
+                    <h2 class="feature-item scroll-animate" style="transition-delay: 0.2s;">Designed for comfort & ease
+                    </h2>
+                    <h2 class="feature-item scroll-animate" style="transition-delay: 0.4s;">Hospital-grade fidelity, at
+                        home</h2>
+                </div>
+
+                <!-- Right Wave -->
+                <div class="d-none d-md-block">
+                    <div class="heartbeat-wave reverse">
+                        <svg viewBox="0 0 300 100" width="100%" height="100%" preserveAspectRatio="none">
+                            <path class="wave-path animate"
+                                d="M0,50 L50,50 L60,20 L75,80 L90,10 L105,90 L120,50 L150,50 L160,30 L170,70 L180,50 L300,50"
+                                fill="none" stroke="url(#blueGradient)" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content will be injected here -->
+
+    <!-- Lifestyle Collage -->
+    <section class="lifestyle-section">
+        <div class="container">
+            <div class="lifestyle-header">
+                <h2 class="lifestyle-title">Made for Real Life</h2>
+                <p class="lifestyle-text">Designed to stay comfortable through every moment.</p>
+            </div>
+
+            <div class="collage-grid">
+                <!-- Image 1: Large Left -->
+                <div class="collage-item collage-item-1 scroll-animate">
+                    <img src="assets/lifestyle-3.jpg" alt="Lifestyle" class="collage-img animate-1">
+                </div>
+
+                <!-- Image 2: Top Middle -->
+                <div class="collage-item collage-item-2 scroll-animate" style="transition-delay: 0.2s;">
+                    <img src="assets/lifestyle-1.png" alt="Lifestyle" class="collage-img animate-2"
+                        style="object-position: top;">
+                </div>
+
+                <!-- Image 3: Top Right -->
+                <div class="collage-item collage-item-3 scroll-animate" style="transition-delay: 0.3s;">
+                    <img src="assets/lifestyle-4.jpg" alt="Lifestyle" class="collage-img animate-3">
+                </div>
+
+                <!-- Image 4: Bottom Middle -->
+                <div class="collage-item collage-item-4 scroll-animate" style="transition-delay: 0.4s;">
+                    <img src="assets/lifestyle-2.png" alt="Lifestyle" class="collage-img animate-4">
+                </div>
+
+                <!-- Image 5: Bottom Right (Wide) -->
+                <div class="collage-item collage-item-5 scroll-animate" style="transition-delay: 0.5s;">
+                    <img src="assets/lifestyle-5.jpg" alt="Lifestyle" class="collage-img animate-5"
+                        style="object-position: top;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Strip -->
+    <section class="brand-strip">
+        <div class="container text-center">
+            <img src="assets/logo-tagline.png" alt="Vellness - The Right Direction to Life"
+                class="brand-logo scroll-animate">
+        </div>
+    </section>
+
+    <!-- Tech Showcase -->
+    <section class="tech-showcase">
+        <div class="tech-video-container">
+            <video class="tech-video" autoplay muted loop playsinline>
+                <source src="assets/techvid.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="tech-content scroll-animate">
+            <h2 class="tech-title">
+                Powered by advanced technology that ensures precise, dependable accuracy—<br>
+                <span class="tech-highlight">every time.</span>
+            </h2>
+        </div>
+    </section>
+
+    <!-- Circular Carousel -->
+    <section class="carousel-section">
+        <div class="container">
+            <div class="carousel-container" id="circular-carousel">
+                <!-- Items will be manipulated by JS, but we define them here -->
+                <!-- Item 1 -->
+                <div class="carousel-item" data-index="0">
+                    <img src="assets/carousel-1.jpg" alt="Ergonomic Fit & Comfort" class="carousel-img">
+                    <div class="carousel-caption">
+                        <h3>Ergonomic Fit & Comfort</h3>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="carousel-item" data-index="1">
+                    <img src="assets/carousel-2.jpg" alt="Precision Sensor Array" class="carousel-img">
+                    <div class="carousel-caption">
+                        <h3>Precision Sensor Array</h3>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="carousel-item" data-index="2">
+                    <img src="assets/carousel-3.jpg" alt="Secure Velcro Fastening" class="carousel-img">
+                    <div class="carousel-caption">
+                        <h3>Secure Velcro Fastening</h3>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="carousel-item" data-index="3">
+                    <img src="assets/carousel-4.jpg" alt="Flexible & Breathable Fabric" class="carousel-img">
+                    <div class="carousel-caption">
+                        <h3>Flexible & Breathable Fabric</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content continues... -->
+
+    <!-- How It Works -->
+    <section class="section" style="background-color: var(--color-white);">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: var(--spacing-lg);">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Clinical precision, simplified.</h2>
+                <p class="text-muted" style="font-size: 1.2rem;">Engineered to eliminate human error and ensure
+                    hospital-grade fidelity.</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-item scroll-animate">
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">Secure the Vest</h3>
+                    <p class="step-text">The 12-lead sensor array is integrated into a unified sash, ensuring exact
+                        anatomical positioning without adhesive electrodes.</p>
+                </div>
+                <div class="step-item scroll-animate" style="transition-delay: 0.2s;">
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">Complete Capture</h3>
+                    <p class="step-text">Initiate recording. The system performs impedance checks and captures a full
+                        diagnostic 12-lead ECG in 60 seconds.</p>
+                </div>
+                <div class="step-item scroll-animate" style="transition-delay: 0.4s;">
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">Diagnostic Report</h3>
+                    <p class="step-text">Data is instantly processed for clinical review. Generate a comprehensive PDF
+                        report for your cardiologist immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Precision Gallery -->
+    <section class="section" style="padding: 6rem 0; background-color: #fff;">
+        <div class="container d-flex justify-center">
+            <div class="gallery-grid">
+                <div class="gallery-item scroll-animate">
+                    <img src="assets/clinical-blue.jpg" alt="Blue Variant" class="gallery-img">
+                    <div class="gallery-caption">
+                        <span>Blue Clinical Variant</span>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-animate" style="transition-delay: 0.2s;">
+                    <img src="assets/clinical-green.png" alt="Green Variant" class="gallery-img">
+                    <div class="gallery-caption">
+                        <span>Green Clinical Variant</span>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-animate" style="transition-delay: 0.4s;">
+                    <img src="assets/clinical-orange.png" alt="Orange Variant" class="gallery-img">
+                    <div class="gallery-caption">
+                        <span>Orange Clinical Variant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="section" style="background-color: #fff;">
+        <div class="container">
+            <h2 class="text-center" style="font-size: 2.5rem; margin-bottom: 3rem;">The Standard of Care, Reimagined.
+            </h2>
+            <div class="benefits-grid">
+                <div class="benefit-card scroll-animate">
+                    <h3 class="benefit-title">Gold-Standard Accuracy</h3>
+                    <p class="benefit-text">Our 12-lead capability detects arrhythmias that single-lead wearables miss,
+                        providing a complete clinical picture.</p>
+                </div>
+                <div class="benefit-card scroll-animate" style="transition-delay: 0.1s;">
+                    <h3 class="benefit-title">Biocompatible Ergonomics</h3>
+                    <p class="benefit-text">Patented dry-sensor fabric technology eliminates skin irritation and
+                        preparation. Designed for long-term patient compliance.</p>
+                </div>
+                <div class="benefit-card scroll-animate" style="transition-delay: 0.2s;">
+                    <h3 class="benefit-title">Secure Clinical Reporting</h3>
+                    <p class="benefit-text">Generate comprehensive PDF reports formatted for immediate cardiologist
+                        review. Data is encrypted at rest and in transit.</p>
+                </div>
+                <div class="benefit-card scroll-animate" style="transition-delay: 0.3s;">
+                    <h3 class="benefit-title">Guided Placement</h3>
+                    <p class="benefit-text">The fixed-array vest ensures consistent electrode positioning every time,
+                        removing inter-operator variability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" style="background-color: #fff;">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 3rem; font-size: 2.5rem;">Trusted by Professionals & Patients
+            </h2>
+            <div class="testimonials-grid">
+                <!-- T1 -->
+                <div class="testimonial-card" style="background-image: url('assets/testimonial-1.png');">
+                    <div class="testimonial-overlay"></div>
+                    <div class="testimonial-content">
+                        <h3 class="testimonial-name">Priya & Raj</h3>
+                        <p class="testimonial-role">Caregivers for Parents</p>
+                        <div class="testimonial-quote-container">
+                            <p class="testimonial-quote">"Peace of mind knowing we're getting hospital-grade accuracy
+                                for our parents right at home."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- T2 -->
+                <div class="testimonial-card" style="background-image: url('assets/testimonial-2-new.jpg');">
+                    <div class="testimonial-overlay"></div>
+                    <div class="testimonial-content">
+                        <h3 class="testimonial-name">Sarah L.</h3>
+                        <p class="testimonial-role">Arrhythmia Patient</p>
+                        <div class="testimonial-quote-container">
+                            <p class="testimonial-quote">"Finally, I can send my cardiologist real, clinical data when I
+                                feel symptoms, without the anxiety."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- T3 -->
+                <div class="testimonial-card" style="background-image: url('assets/testimonial-3.png');">
+                    <div class="testimonial-overlay"></div>
+                    <div class="testimonial-content">
+                        <h3 class="testimonial-name">Dr. Robert M.</h3>
+                        <p class="testimonial-role">Retired Physician</p>
+                        <div class="testimonial-quote-container">
+                            <p class="testimonial-quote">"The trace quality is indistinguishable from the machine I used
+                                in my clinic for 30 years."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Accuracy -->
+    <section class="section clinical-section">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h2 class="clinical-headline scroll-animate">A clinically accurate 12-lead ECG designed for home use.
+                </h2>
+                <div class="clinical-divider scroll-animate"></div>
+
+                <p class="clinical-text scroll-animate"
+                    style="color: var(--color-text-main); font-size: 1.25rem; transition-delay: 0.4s;">
+                    An advanced sensor array works with intelligent signal processing to capture high-fidelity heart
+                    data with exceptional consistency.
+                </p>
+
+                <p class="clinical-text scroll-animate" style="color: var(--color-text-muted); transition-delay: 0.6s;">
+                    By reducing human error at the source, the system delivers dependable results through a calm,
+                    comfortable, wearable experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust -->
+    <section class="section trust-section">
+        <div class="container" style="max-width: 800px;">
+            <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Encrypted. Compliant. Secure.</h2>
+            <p style="font-size: 1.25rem; color: var(--color-text-muted); margin-bottom: 3rem;">
+                Your cardiac data is sensitive health information. We protect it with the same standards used by major
+                health systems.
+            </p>
+            <div class="trust-badges">
+                <div class="trust-badge">HIPAA Compliant</div>
+                <div class="trust-badge">FDA Cleared</div>
+                <div class="trust-badge">AES-256 Encryption</div>
+                <div class="trust-badge">GDPR Ready</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Vellness</h3>
+                    <p class="footer-text">Hospital accuracy. Home comfort.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li>Features</li>
+                        <li>How it works</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li>About Us</li>
+                        <li>Contact</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Vellness Inc. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA -->
+    <button id="floating-cta" class="floating-cta">Enquire Now</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
